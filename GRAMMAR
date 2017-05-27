@@ -1,0 +1,14 @@
+
+Reading a vector<class T> from istream
+---------------------------------------
+
+Correct input form is one of:   []   [ T ]    [ T, T, T, ... T ]
+
+Grammar:
+
+	[ ]
+	[ Sequence ]
+
+	Sequence:
+		T
+		T, Sequence
